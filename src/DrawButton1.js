@@ -1,6 +1,6 @@
 import React from "react";
 
-const DrawButton = ({addCard}) => {
+const DrawButton1 = ({addCard}) => {
   const handleClick = () => {
     addCard()
   }
@@ -10,4 +10,4 @@ const DrawButton = ({addCard}) => {
   )
 }
 
-export default DrawButton
+export default DrawButton1

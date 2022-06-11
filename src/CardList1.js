@@ -6,9 +6,9 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { v4 as uuid } from "uuid"
 import Card from "./Card"
-import DrawButton from "./DrawButton";
+import DrawButton1 from "./DrawButton1";
 
-const CardList = () => {
+const CardList1 = () => {
   const [deckRef, setDeckRef] = useState(null);
   const [cards, setCards] = useState([])
 
@@ -38,7 +38,7 @@ const CardList = () => {
 
   return (
     <div>
-      <DrawButton addCard={addCard} />
+      <DrawButton1 addCard={addCard} />
       <ul>
         {cards.map((card) => <Card card={card} key={uuid()}/>)}
       </ul>
@@ -46,4 +46,4 @@ const CardList = () => {
   )
 }
 
-export default CardList
+export default CardList1

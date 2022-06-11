@@ -1,9 +1,11 @@
 import './App.css';
-import CardList from './CardList';
+import CardList1 from './CardList1';
+import CardList2 from './CardList2';
 
 function App() {
   return (
-    <CardList />
+    // <CardList1 />
+    <CardList2 />
   );
 }
 
